@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.login-box {
+    background-color: #1c1c1c;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    margin-top: 30px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+}
+
+.login-box button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    width: 100%;
+    background-color: #00bfff;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+    background-color: #00bfff;
+}
+
+.login-note {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #aaa;
+    font-style: italic;
+}
+img {
+    position: fixed;
+    bottom: 350px;
+    right: 200px;
+    width: 250px;
+    height: auto;
+    border-radius: 0;    /* agar bilkul square chahiye */
+    padding: 0;          /* koi extra space nahi */
+    background: none;    /* koi background color nahi */
+    box-shadow: none;    /* shadow hatado */
+    border: none;        /* border hatao */
+    z-index: 1000;
+    
+
+}
+.image-fixed {
+    position: fixed;
+    bottom: 370px;
+    right: 970px;
+    width: 270px;        /* 👈 Image ki width ab 30px */
+    height: auto;
+    border-radius: 0;
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    border: none;
+    z-index: 1000;
+}
+/* Body Styling (optional) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer Text Styling */
+.developer-credit {
+    position: fixed;
+    bottom: 340px;
+    right: 600px;
+    font-size: 14px;
+    color: #555;
+    background-color: #000000;
+    padding: 6px 12px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 9999;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.password-wrapper {
+    position: relative;
+    display: flex;
+}
+
+    
